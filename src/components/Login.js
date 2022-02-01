@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import {collection,getDocs, addDoc} from "firebase/firestore";
-
+import { collection, getDocs, addDoc } from "firebase/firestore";
 
 function Login() {
   return (
@@ -18,10 +17,10 @@ function Login() {
             placeholder="Password"
             className="py-1  px-4 outline-none rounded-sm"
           />
-          <Link to="/users"> 
-          <button className="bg-gray-50 py-1 outline-none rounded-sm w-24">
-            Login
-          </button>
+          <Link to="/users">
+            <button className="bg-gray-50 py-1 outline-none rounded-sm w-24 hover:bg-gray-300 hover:text-red-500">
+              Login
+            </button>
           </Link>
         </div>
       </div>

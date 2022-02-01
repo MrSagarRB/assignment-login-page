@@ -72,7 +72,7 @@ function Users() {
             }}
           />
           <button
-            className="bg-blue-500 px-9 py-1 mt-3 text-white text-xl pb-2 rounded"
+            className="bg-blue-500 px-9 py-1 mt-3 text-white text-xl pb-2 rounded hover:bg-red-400"
             onClick={createUser}
           >
             Submit
